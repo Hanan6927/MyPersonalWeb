@@ -1,7 +1,7 @@
 body{
     font-family: 'Roboto', sans-serif;
 }
-
+* { box-sizing: border-box; }
 .dropdown-toggle::after {
     transition: transform 0.15s linear; 
 }
@@ -13,26 +13,158 @@ transform: translateY(3px);
 .dropdown-menu {
     margin-top: 0;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    width: 300px !important;
+    width: 330px !important;
+    height: 150px;
 }
-
+.dropdown-menu .dropdown-item a{
+    color: black !important;
+}
 .navbar-brand{
     font-size: 1.7rem;
     font-weight: 700;
 }
 
 .nav-link{
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 1.3rem;
+    font-weight: 370;
+    color: black !important;
 }
 
 .navbar-nav .nav-item.active .nav-link,
 .navbar-nav .nav-item:hover .nav-link {
-    color: white;
-    background-color: black;
+    color: white !important;
+    background-color: black !important;
 }
 
+.social:hover{
+    color: gray !important;
+}
+.footer-social a{
+    color: white !important;
+    font-size: 1.5rem;
+}
+.footer-social a:hover{
+    color: yellow !important;
+    font-size: 2rem;
+}
 .no-gutters {
     margin-right: -15px;
     margin-left: -15px;
+ }
+ .co-relative {
+    position: relative;
+    text-align: center;
+    color: white;
   }
+ .centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 500;
+    font-size: 3.5rem;
+ }
+ 
+#fImage{
+    filter: brightness(0.50);
+}
+.first-para{
+    font-size: 2.5rem;
+    font-weight: 200;
+    text-align: center;
+}
+.vdiscrip{
+    font-size: 1.1rem;
+} 
+.btn-fpage, .btn-fpage:active, .btn-fpage:visited {
+    background-color: #F62817 !important;
+    color: white !important;
+    font-size: 1.3rem;
+    font-weight: 200;
+    padding-left: 0%;
+}
+.btns .fa{
+    padding-right: 100px;
+}
+
+.carousel-cell {
+    margin-right: 20px;
+    overflow: hidden;
+  }
+  
+  .carousel-cell img {
+    display: block;
+    height: 200px;
+  }
+  
+  @media ( max-width: 768px ) {
+    .carousel-cell img {
+      height: 400px;
+    }
+
+  }
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: black;
+}
+.carousel-indicators {
+    bottom: -50px;
+}
+.container-fluid-margin{
+    margin-top: 150px;
+}
+
+.footer-page{
+    background-color: rgb(10, 10, 44);
+    color: white;
+}
+
+@media ( max-width: 768px ) {
+    .container-fluid-margin {
+        margin: 0;
+    }
+    .footer-page .row{
+        padding-left: 0;
+        padding-right: 0;
+        margin: 0;
+    }
+    .footer-page .subscribe-po{
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+  }
+
+.subscribe-po{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images.unsplash.com/photo-1489110804417-276c3f517515?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80);
+    margin: 130px;
+    padding: 70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+    color: white;
+    box-shadow: 0px 8px 8px 0px black;
+}
+.subscribe-po h2{
+    color: white;
+    font-weight: 200;
+    font-size: 2rem;
+    text-align: center;
+}
+input[type=email] {
+    border-radius: 10px;
+    padding: 8px;
+    border: 0 white;
+}
+input[type=email]:focus {
+    outline: none;
+}
+.btn-default{
+	border-radius: 10px;
+    background-color: #F62817;
+    color: white;
+    padding: 8px;
+}
