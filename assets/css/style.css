@@ -201,3 +201,13 @@ input[type=email]:focus {
     height: 300px;
     border-radius: 10px;
 }
+
+.search{
+    background-color: rgba(243, 232, 232, 0.5);
+    height: 50px;
+}
+.search:hover, .search:focus{
+    background-color: rgba(243, 232, 232, 0.5);
+    text-decoration: none;
+    outline: none;
+}

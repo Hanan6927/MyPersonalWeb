@@ -33,7 +33,7 @@
     padding-left: 3.5rem;
     padding-right: 3.5rem;
 }
-.contact-form{
+/* .contact-form{
     background: #fff;
     margin-top: 5%;
     margin-bottom: 5%;
@@ -83,7 +83,7 @@
     border: none;
     cursor: pointer;
 }
-
+ */
 
 .modal{
     display: none;
