@@ -44,3 +44,32 @@ $carousel.on( 'scroll.flickity', function() {
   });
 });
 
+$(document).ready(function() { 
+  var url = $("#vidf").attr('src'); 
+  $("#modalf").on('hide.bs.modal', function() { 
+      $("#vidf").attr('src', ''); 
+  }); 
+  $("#modalf").on('show.bs.modal', function() { 
+      $("#vidf").attr('src', url); 
+  }); 
+});
+
+$(document).ready(function() { 
+  var url = $("#vids").attr('src'); 
+  $("#modals").on('hide.bs.modal', function() { 
+      $("#vids").attr('src', ''); 
+  }); 
+  $("#modals").on('show.bs.modal', function() { 
+      $("#vids").attr('src', url); 
+  }); 
+});
+
+$(document).ready(function() { 
+  var url = $("#vidt").attr('src'); 
+  $("#modalt").on('hide.bs.modal', function() { 
+      $("#vidt").attr('src', ''); 
+  }); 
+  $("#modalt").on('show.bs.modal', function() { 
+      $("#vidt").attr('src', url); 
+  }); 
+});

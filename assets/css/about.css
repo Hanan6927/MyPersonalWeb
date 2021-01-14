@@ -171,3 +171,19 @@
     transition: all 0.4s ease-in;
     filter: brightness(.7);
 }
+.hide-show{
+    text-decoration: none;
+    margin-top: 3%;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:  #dc3545;
+}
+.hide-show:hover{
+    text-decoration: none;
+    color: #dc3545;
+    filter: opacity(.4);
+}
+.fa-caret-right{
+    font-weight: bold;
+    font-size: 1.5rem;
+}

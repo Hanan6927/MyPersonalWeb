@@ -31,3 +31,6 @@ function showSlides(n){
 
     slidesJS[slideIndexJs-1].style.display = "block";
 }
+function myFunction(x) {
+    x.classList.toggle("fa-sort-down");
+  }
