@@ -20,9 +20,11 @@ transform: translateY(3px);
 .dropdown-menu .dropdown-item a{
     color: black !important;
 }
+.navbar{
+    background-color: white;
+}
 .navbar-brand{
     font-size: 1.7rem;
-    font-weight: 700;
 }
 
 .nav-link{
@@ -235,4 +237,11 @@ text-decoration: none;
 .pagination a.active {
 background-color: white;
 color: black;
+}
+
+
+.sticky{
+    position: -webkit-sticky;
+    position: sticky;
+
 }
