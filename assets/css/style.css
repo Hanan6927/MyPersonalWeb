@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    line-height: 2;
 }
 * { box-sizing: border-box; }
 .dropdown-toggle::after {
